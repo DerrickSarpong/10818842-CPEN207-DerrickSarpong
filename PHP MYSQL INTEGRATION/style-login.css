@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  /*box-sizing: border-box;*/
+  font-family: 'Poppins',sans-serif;
+}
+
+@font-face {
+  font-family: Century Gothic;
+  src: url(c:/Windows/fonts/gothic.ttf);
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  background-image: url("mkbhd_icons_pack_4k.jpg");
+  font-family: 'Poppins',sans-serif;
+  background-blend-mode: lighten;
+  background-position: relative;
+
+  /*font-family: century 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  /*background: //#fff;*/
+  
+}
+
+.box{
+  width: 300px;
+  padding: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background: #fff;
+  text-align: center;
+  box-shadow: 0px 7px 7px rgb(0 0 0 /30%);
+  /*padding: 25px 30px;
+  border-radius: 5px;*/
+}
+.box h1{
+  color:black;
+  /*color: #0071a5;*/
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.box input[type = "text"],.box input[type = "password"]{
+  border:0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #0071a5;
+  padding: 14px 10px;
+  width: 200px;
+  outline: none;
+  color: black;
+  border-radius: 20px;
+  transition: 0.25s;
+}
+.box input[type = "text"]:focus,.box input[type = "password"]:focus{
+  width: 280px;
+  border-color: #2ecc71;
+}
+.box input[type = "submit"]{
+  border:0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #2ecc71;
+  padding: 14px 40px;
+  outline: none;
+  color: rgb(102, 102, 102);
+  border-radius: 24px;
+  transition: 0.25s;
+  cursor: pointer;
+}
+.box input[type = "submit"]:hover{
+  background: #2ecc71;
+}
+
+.wrapper {
+  align-items: center;
+  position: absolute;
+  position: relative;
+  text-align: center;
+  top: 50%;
+}
+
+.wrapper {
+  position:initial;
+  background: linear-gradient(-135deg, #1a86ce, #9b59b6);
+  height: 250px;
+  /*border-radius: 20px;*/
+  box-sizing: border-box;
+  box-shadow: 0px 7px 7px rgb(0 0 0 /30%);
+  
+}
+.uni-logo {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  color: #fff;
+  padding: 15px;
+  font-size: 35px;
+  position: inherit;
+}
+
+.sub-heading {
+  color: #fff;
+  padding: 10px;
+  font-family: 'Poppins',sans-serif;
+  font-weight:bold;
+}
+
+.footer {
+  position: bottom;
+  align-content: center;
+  bottom: 5%;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Poppins',sans-serif;
+}
+
+.no-account {
+  font-family: 'Poppins',sans-serif;
+}
+
+.button{
+  height: 45px;
+  margin: 5px ;
+}
+
+/*
+form .button input{
+  height: 100%;
+  width: 100%;
+  border-radius: 5px;
+  border: none;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  /*background:;
+  /*background: linear-gradient(135deg, #71b7e6, #9b59b6);*/
+/*.button{
+    height: 45px;
+    margin: 10px;
+}*/
+
+.box input[type = "button"]:focus,.box input[type = "button"]:focus{
+  width: 280px;
+  border-color: #2ecc71;
+}
+
+.box input[type = "button"]{
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background: linear-gradient(135deg, #71b7e6, #9b59b6);
+}
+
+.button input:hover {
+  background: linear-gradient(-135deg, #71b7e6, #9b59b6);
+}
+  @media(max-width: 584px){
+    .container{
+     max-width: 100%;
+}
+
+form .button input:hover{
+ /* transform: scale(0.99); */
+ background: linear-gradient(-135deg, #71b7e6, #9b59b6);
+ }
+}
